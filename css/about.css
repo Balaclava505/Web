@@ -1,0 +1,28 @@
+header {
+	 background-image:
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),
+        url('../img/about.jpg'); 
+}
+
+@media (max-width: 767px) {
+	header { 
+		background-image: 
+		    linear-gradient(
+	          rgba(0, 0, 0, 0.3), 
+	          rgba(0, 0, 0, 0.3)
+	        ),
+			url('../img/about-mobile.jpg');
+	}
+}
+
+p {
+	font-size: 22px;
+}
+
+.text {
+	padding-left: 7%; 
+	padding-right: 7%; 
+}
